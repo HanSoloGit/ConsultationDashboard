@@ -3,4 +3,3 @@ pandas==2.2.2
 plotly
 sentence-transformers==2.2.2
 torch
-
