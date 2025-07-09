@@ -89,7 +89,7 @@ if uploaded_file:
 
             @st.cache_resource
             def load_embedding_model():
-                return SentenceTransformer("all-MiniLM-L6-v2")
+                return SentenceTransformer("paraphrase-MiniLM-L6-v2")
 
             embedding_model = load_embedding_model()
 
